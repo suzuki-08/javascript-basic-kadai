@@ -1,12 +1,6 @@
-// 変数の宣言
-let userWeight;
-let userHeight;
+const userWeight = '68';
+const userHeight = '1.7';
 
-// 値の代入
-userWeight = '68';
-userHeight = '1.7';
+const bmi = userWeight / (userHeight * userHeight);
 
-let bmi = userWeight / (userHeight * userHeight);
-
-// コンソールへの出力
-console.log( bmi );
+console.log(bmi);
